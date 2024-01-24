@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgb(252, 249, 249);
+}
+
+.page-left {
+    display: flex;
+    margin-left: 215px
+}
+
+img {
+    display: flex;
+    max-width: 25vw;
+}
+
+.page-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    margin-right: 215px
+}
+
+.page-right-heading {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.invisible {
+    color: white;
+}
+
+.page-right-form {
+    display: flex;
+    flex: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+.info-container-right, .info-container-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 20px;
+    max-width: 50vw;
+}
+
+.page-right-form p {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 0.7em;
+}
+
+.page-right-bottom {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 30px;
+}
+
+.page-right-bottom button {
+    display: flex;
+    justify-content: center;    
+    border: solid;
+    border-radius: 10px;
+    max-height: 40px;
+    max-width: 150px;
+    min-width: 150px;
+    margin-top: 20px;
+    color: rgb(243, 237, 237);
+    background-color: #596D48;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+}
