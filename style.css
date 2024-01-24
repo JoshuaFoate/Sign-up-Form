@@ -36,9 +36,14 @@ img {
 
 .page-right-form {
     display: flex;
+    flex-direction: column;
     flex: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: white;
+}
+
+.page-right-middle {
+    display: flex;
 }
 
 .info-container-right, .info-container-left {
@@ -67,7 +72,7 @@ label {
     margin-left: 30px;
 }
 
-.page-right-bottom button {
+button {
     display: flex;
     justify-content: center;    
     border: solid;
@@ -82,7 +87,20 @@ label {
     font-weight: bold;
 }
 
+.button {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
 a {
     text-decoration: none;
     color: #596D48;
+}
+
+input:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input:valid {
+    border-color: green;
 }
